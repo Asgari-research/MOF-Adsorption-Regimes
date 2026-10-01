@@ -1,0 +1,6 @@
+feature_family,n_columns,n_unique_columns,is_exact_duplicate,duplicate_of,included_in_model_jobs
+geometry_only,48,48,False,,True
+enriched_geometry,55,55,False,,True
+geometry_topology,55,55,True,enriched_geometry,False
+geometry_topology_clusters,59,59,False,,True
+process_enhanced_optional,59,59,True,geometry_topology_clusters,False

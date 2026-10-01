@@ -1,0 +1,4 @@
+gate,false_elite_rate,elite_recall
+uncalibrated predicted elite,0.5238095238095238,0.0675675675675675
+standard confident elite,0.0,0.0337837837837837
+adaptive confident elite,0.0,0.0

@@ -1,0 +1,14 @@
+output,script_entry,primary_source_data,notes
+Figure_1_low_accessibility_regime,figure1,data/main_figures/Figure_5b_quintile_rates.csv; data/main_figures/Figure_5a_enrichment_top30.csv,Full precision; hypothesis language; n=7305
+Figure_2_structure_resolved_chemistry,figure2,data/casebook/paper_b_candidate_casebook_complete.csv; data/cifs/*.cif,Historical frozen structure PNG masters were not supplied; portable review path falls back to supplied CIFs; locked final PDF remains authoritative
+Figure_3_calibrated_screening_decisions,figure3,data/main_figures/Figure_3a_candidate_counts.csv; Figure_3b_risk_gate_tradeoff.csv; Figure_3c_stability.csv; Figure_3d_decision_map_sample.csv,Adaptive false rate N/A; sample n=900; adaptive 90% LCB label
+Figure_4_transfer_uncertainty,figure4,data/main_figures/Figure_2a_coverage_deviation_by_split_target.csv; Figure_2b_interval_width_by_split_target.csv; Figure_2c_rmse_coverage_screening_tradeoff.csv; Figure_2d_standard_vs_adaptive_conformal.csv,Saved summaries displayed as 95%; panel A correction is code-only
+Figure_S1_target_detection_summary,si1,data/si_figures/Figure_S1_target_detection_summary.csv,Units added
+Figure_S2_feature_split_diagnostics,si2,data/si_figures/Figure_S2_feature_redundancy.csv; Figure_S2_split_diagnostics.csv,Included/excluded feature families made explicit
+Figure_S3_full_rmse_by_target_split,si3,data/si_figures/Figure_S3_full_rmse_by_target_split.csv,Horizontal=split; vertical=target; units added
+Figure_S4_full_interval_width_by_target_split,si4,data/si_figures/Figure_S4_full_interval_width_by_target_split.csv,Horizontal=split; vertical=target; 95% level
+Figure_S5_coverage_distribution,si5,data/si_figures/Figure_S5_coverage_distribution.csv,Nominal 0.95 reference
+Figure_S6_filter_sensitivity,si6,data/si_figures/Figure_S6_filter_sensitivity.csv,Empty PLD subset shown N/A
+Figure_S7_external_process_casebook_diagnostics,si7,data/si_figures/Figure_S7_process_triage_source.csv; Figure_S8_casebook_gallery_source.csv,Two-panel diagnostic after removal of the external-support status panel
+Figure_S8_full_structural_casebook_gallery,si8,data/si_figures/Figure_S8_casebook_gallery_source.csv; data/cifs/*.cif,Historical frozen structure PNG masters were not supplied; portable review path uses CIF fallback and labels the output as review-only
+TOC,toc,data/main_figures/Figure_5b_quintile_rates.csv,Mechanism remains hypothesis
