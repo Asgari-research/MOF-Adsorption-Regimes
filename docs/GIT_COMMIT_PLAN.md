@@ -1,40 +1,25 @@
-# Recommended commit plan
+# Git history and future commit policy
 
-For a clean history, use two commits rather than one large undifferentiated commit.
+The initial repository integration is complete. The historical two-part integration separated immutable provenance/final artwork from repository tooling/documentation. That import should not be replayed on `main`.
 
-## Commit 1 — immutable provenance and final artwork
+For future work:
 
-Stage:
+1. synchronize `main` with `git pull --ff-only`;
+2. create a short-lived descriptive branch;
+3. make one scientifically coherent change per commit where practical;
+4. run repository integrity checks before every commit that touches tracked scientific artifacts;
+5. review the GitHub diff before merging;
+6. avoid rewriting published/shared history unless all collaborators explicitly agree.
 
-```bash
-git add figures/final integrity verify_final_figures.py analysis/frozen_original analysis/audit_evidence
-```
-
-Suggested message:
-
-```text
-Preserve locked figures and frozen analysis snapshot
-```
-
-## Commit 2 — portable review tooling and documentation
-
-Stage:
-
-```bash
-git add README.md .gitignore figure_generation analysis/proposed_repairs docs scripts
-```
-
-Suggested message:
-
-```text
-Add portable WSL2 review tooling and reproducibility notes
-```
-
-Before each commit, run:
+Recommended pre-commit checks:
 
 ```bash
 python verify_final_figures.py
 python scripts/verify_repository.py
+PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s analysis/proposed_repairs/tests -v
+python scripts/check_forbidden_git_files.py
 git diff --cached --stat
 git diff --cached --name-status
 ```
+
+Changes to `figures/final/`, integrity manifests, frozen analysis source, or retained scientific source data should be treated as explicit scientific revision events rather than routine repository cleanup.
