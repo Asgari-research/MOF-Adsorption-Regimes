@@ -1,0 +1,34 @@
+name: Repository integrity
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Verify locked figures
+        run: python verify_final_figures.py
+
+      - name: Verify repository integrity
+        run: python scripts/verify_repository.py
+
+      - name: Run focused identifier-matching tests
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: python -m unittest discover -s analysis/proposed_repairs/tests -v
+
+      - name: Check forbidden generated/archive files
+        run: python scripts/check_forbidden_git_files.py
