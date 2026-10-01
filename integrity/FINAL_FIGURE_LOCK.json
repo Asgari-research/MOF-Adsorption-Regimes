@@ -1,0 +1,102 @@
+{
+  "source": "Final_Final.zip",
+  "count": 12,
+  "figures": [
+    {
+      "filename": "Figure_1.pdf",
+      "sha256": "f9464d16c5d4855890284ba7daae1d05a1254df1cc62e99477f5ea1c86f2a1c1",
+      "bytes": 1287199,
+      "pages": 1,
+      "page_size": "922.054 x 586.318 pts",
+      "status": "AUTHORITATIVE_LOCKED_FINAL"
+    },
+    {
+      "filename": "Figure_2.pdf",
+      "sha256": "4a15807c5c421a28bd776cc77b2c0608a81502dc0a4e4226c465eee2a7477a93",
+      "bytes": 6579288,
+      "pages": 1,
+      "page_size": "1043.18 x 644.003 pts",
+      "status": "AUTHORITATIVE_LOCKED_FINAL"
+    },
+    {
+      "filename": "Figure_3.pdf",
+      "sha256": "4b5f5b0deada9b07155cc56d26f50fb454c9376fcc0393d5a9a97008d80067cc",
+      "bytes": 210871,
+      "pages": 1,
+      "page_size": "986.623 x 643.518 pts",
+      "status": "AUTHORITATIVE_LOCKED_FINAL"
+    },
+    {
+      "filename": "Figure_4.pdf",
+      "sha256": "1a352d6b435dcea9aa5f7084aa4afb2f565c6a414d67eecf0faaf94da0f9cb8a",
+      "bytes": 162577,
+      "pages": 1,
+      "page_size": "1125.41 x 672.917 pts",
+      "status": "AUTHORITATIVE_LOCKED_FINAL"
+    },
+    {
+      "filename": "Figure_S1.pdf",
+      "sha256": "75ea12f63405e5dfe64a1938fba845971664796f739c6bc441d52ff01c4f126e",
+      "bytes": 43922,
+      "pages": 1,
+      "page_size": "913.818 x 345.538 pts",
+      "status": "AUTHORITATIVE_LOCKED_FINAL"
+    },
+    {
+      "filename": "Figure_S2.pdf",
+      "sha256": "e0073dffe93f13b5449b296d319fdc402fb5f9f679e59463c7c89b90a941b559",
+      "bytes": 46497,
+      "pages": 1,
+      "page_size": "982.424 x 364.518 pts",
+      "status": "AUTHORITATIVE_LOCKED_FINAL"
+    },
+    {
+      "filename": "Figure_S3.pdf",
+      "sha256": "7cdd1583aa43971ba272233d5a8beca1db359e911d66623243a00a20e24341ca",
+      "bytes": 35380,
+      "pages": 1,
+      "page_size": "558.018 x 419.652 pts",
+      "status": "AUTHORITATIVE_LOCKED_FINAL"
+    },
+    {
+      "filename": "Figure_S4.pdf",
+      "sha256": "c4dc23c7e8fa32411bc5010ade2b4bea0bca735660f3d4fbd6646561c53de377",
+      "bytes": 37052,
+      "pages": 1,
+      "page_size": "548.831 x 419.652 pts",
+      "status": "AUTHORITATIVE_LOCKED_FINAL"
+    },
+    {
+      "filename": "Figure_S5.pdf",
+      "sha256": "31ef8935be0db2bebd6e0c5ddb8f709d6e37fe119b409610c3f8694114d5b6ae",
+      "bytes": 28984,
+      "pages": 1,
+      "page_size": "521.677 x 356.716 pts",
+      "status": "AUTHORITATIVE_LOCKED_FINAL"
+    },
+    {
+      "filename": "Figure_S6.pdf",
+      "sha256": "c8a43c44e0c43bd332846173af409cc78b4b61852a1ec50a46e983861356fd48",
+      "bytes": 53515,
+      "pages": 1,
+      "page_size": "897.525 x 412.631 pts",
+      "status": "AUTHORITATIVE_LOCKED_FINAL"
+    },
+    {
+      "filename": "Figure_S7.pdf",
+      "sha256": "efea8d53a909c309a79418314b8441e9db69a30cd3fefcbe21d3f98695adbee8",
+      "bytes": 44564,
+      "pages": 1,
+      "page_size": "911.22 x 354.78 pts",
+      "status": "AUTHORITATIVE_LOCKED_FINAL"
+    },
+    {
+      "filename": "Figure_S8.pdf",
+      "sha256": "cbba5de899aba503ed0bef8ed6dbe4bd8c5b8e6ce87fe528007d4d36873b1e39",
+      "bytes": 14344808,
+      "pages": 1,
+      "page_size": "996.12 x 1093.14 pts",
+      "status": "AUTHORITATIVE_LOCKED_FINAL"
+    }
+  ]
+}
