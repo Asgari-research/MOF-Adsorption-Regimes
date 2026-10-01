@@ -1,0 +1,3 @@
+process_proxy_status,count
+process-proxy warning,8
+no obvious process-proxy red flag,6

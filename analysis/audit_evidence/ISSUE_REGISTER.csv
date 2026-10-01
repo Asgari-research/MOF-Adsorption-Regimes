@@ -1,0 +1,16 @@
+audit_id,priority,evidence_status,owner,finding,required_action
+A01,release blocker,confirmed,Code + master + figures,Invalid external identifier matching,Strict identifier allowlist and row-level provenance; otherwise qualify annotations
+A02,release blocker,confirmed,Code + figures + master,95% summary statistics labelled 90%,Map metric lineage and correct levels/display arithmetic without model runs
+A03,high,confirmed,Figures + master + code,Empty adaptive selection falsely reports zero false rate,N/A for undefined rate; count and recall remain zero
+A04,high,confirmed,Master + figures + code,Jaccard conflates varying eligible pools and rankings,Relabel overlap across split realizations and specify LCB variant
+A05,release blocker for unqualified representation claim,confirmed inclusion; influence unknown,Master + code + authors,Row-index predictor and numeric cluster semantics,Document actual features; author decision; no silent feature changes/reruns
+A06,high,partly recovered,Master + code + authors,Incomplete methods and missing elite T,"Recover exact numerical T, job configuration and cohort manifests"
+A07,high,confirmed limits; mechanism unproved,Master,Selected-job and causal/reproducibility overclaims,Qualify scope; preserve descriptive finding and future hypothesis tests
+A08,high,confirmed,Master + figures,Quintile denominator and OR comparator,Use 7305 eligible rows and selected quintile versus other four
+A09,high,confirmed counts; PLD mapping cause needs input,Master + code + figures,Filter interpretation and cohort mapping,Correct Table S5 reference; mark empty filter undefined; prove row-ID difference
+A10,medium/high,visual inspection,Figures,"Typography, axes, structural renders",Preserve layouts; redraw from data/CIFs and correct periodic geometry
+A11,medium,confirmed,Master,Unreadable SI tables and process wording,"Readable table layout, precise prose and cross-references"
+A12,high,metadata corrections verified; one claim pending,Master,Wrong bibliographic metadata,Correct both inline bibliographies and BibTeX; verify Zhu table
+A13,high,static review,Code,Unsafe/stale builders and incomplete reproduction path,Preserve snapshot; document hazards; safe plotting-only path
+A14,high before release,confirmed,Master + authors + code,"Version, manifest and author discrepancies",New manifest; author-owned metadata resolution
+A15,high,confirmed,Code + master + figures,Casebook cluster columns contain filenames,Correct explicit annotation mapping or mark derived mechanism fields unverified

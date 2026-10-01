@@ -1,0 +1,14 @@
+{
+  "q_abs_80": 0.2742238895107621,
+  "q_pos_80": 0.0151536378088004,
+  "q_neg_80": 0.2219683703115172,
+  "q_abs_90": 0.4442551601608553,
+  "q_pos_90": 0.1118579875539521,
+  "q_neg_90": 0.3528654909559177,
+  "q_abs_95": 0.6630873638541426,
+  "q_pos_95": 0.2767716389989465,
+  "q_neg_95": 0.5218985995872178,
+  "representative_job_id": "co2_0p15_uptake_mmol_g_co2_at_0_15_bar_geometry_topology_clusters_rf_topology_grouped_seed43",
+  "n_casebook_rows": 14,
+  "max_residual_identity_error": 8.881784197001252e-16
+}

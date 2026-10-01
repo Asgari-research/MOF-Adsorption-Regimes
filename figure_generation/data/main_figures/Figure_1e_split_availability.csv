@@ -1,0 +1,5 @@
+split_type,selected_group_column,status,reason,requested_in_run
+random,,available,available,True
+topology_grouped,Crystalnet,available,available,True
+geo_cluster_grouped,,unavailable,geo-cluster column failed cardinality/nonmissing checks,True
+chemistry_cluster_grouped,mc_clusters__cluster_id,available,available,True
